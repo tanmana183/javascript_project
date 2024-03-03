@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+}
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+.box{
+   
+    width: 50%;
+    background-color: white;
+    border-radius: 35px;
+}
+.inputbox{
+   
+    width: 100%;
+border-radius: 35px;
+background-color: white;
+
+display: flex;
+    justify-content:center;
+    align-items: center;
+}
+input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 15px;
+    margin-left:15px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 35px;
+}
+button{
+    width: 20%;
+    height: 60px;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    background-color:orange;
+    cursor: pointer;
+}
+.box i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#list_container{
+    border-radius: 35px;
+    border: none;
+    width: 50%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.tododiv{
+    padding: 25px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.todobutton{
+background-color: lightblue;
+}
+.todoupbutton{
+    background-color: rgb(223, 223, 73);
+}
