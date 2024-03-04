@@ -59,8 +59,12 @@ h1{
    margin-block: 8px;
    font-size: 25px;
 }
-.ans:hover{
+.ans:hover:not([disabled]){
     background-color: bisque;
+}
+.ans:disabled{
+    cursor:no-drop;
+    
 }
 #next{
     height: 8%;
@@ -74,4 +78,21 @@ h1{
 }
 #next:hover{
     background-color: rgb(194, 28, 56);
+}
+.play{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(14, 235, 88);
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 1.2rem;
+    font-size: 20px;
+}
+.correct{
+    background-color: green;
+
+}
+.incorrect{
+    background-color: red;
 }
